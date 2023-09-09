@@ -7,18 +7,18 @@ export type Project = {
 
 const projects: Project[] = [
   {
-    title: "Collaro Shopify E-Commerce",
+    title: "Collaro [Shopify E-Commerce]",
     techs: ["Remix (Hydrogen Shopify)", "Contentful", "Firebase"],
     link: "https://collaro.co",
   },
   {
-    title: "Gedu College of Business ",
+    title: "Gedu College of Business",
     techs: ["ReactJS (NextJS)", "TypeScript"],
     link: "https://gcbs.edu.bt",
     isComingSoon: true,
   },
   {
-    title: "Horus",
+    title: "Horus [Real World Asset Tokenisation]",
     techs: ["ReactJS (NextJS)", "TypeScript", "Ethereum", "Linea"],
     link: "/",
     isComingSoon: true,
