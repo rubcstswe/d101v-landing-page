@@ -16,7 +16,7 @@ const presentation: Presentation = {
   title: "Hi, We’re D101V 👋",
   // profile: "/profile.webp",
   description:
-    "Kuzuzangpola, we're a *Bhutanese Software Development Arm from Royal University of Bhutan* with over *10 years* of joint web experience. We are currently working with *Flutter, NextJS and Remix*.",
+    "Kuzuzangpola, we're a *Bhutanese Software Development Arm from Royal University of Bhutan* with over *10 years* of joint web experience. We are currently working with *Flutter, NextJS, Remix & Ethereum*.",
   socials: [
     // {
     //   label: "X",
