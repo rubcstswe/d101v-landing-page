@@ -44,7 +44,7 @@ const posts = (await getCollection("posts")).sort(function (first, second) {
       </div>
     </article>
 
-    <article class="flex flex-col gap-8">
+    <!-- <article class="flex flex-col gap-8">
       <header class="flex w-full flex-row justify-between gap-2">
         <h3 class="text-lg text-neutral-100">Latest posts</h3>
         <Link href="/posts" label="See all posts" isUnderline target="_self" />
@@ -66,12 +66,12 @@ const posts = (await getCollection("posts")).sort(function (first, second) {
               ))
         }
       </section>
-    </article>
+    </article> -->
 
     <article class="flex flex-col gap-8">
       <header class="flex w-full flex-row justify-between gap-2">
         <h3 class="text-lg text-neutral-100">
-          Selected projects ({projects.length})
+          Featured Clients ({projects.length})
         </h3>
       </header>
       {projects.length === 0 && <p>Oops, I must work^^^^^</p>}
@@ -89,10 +89,10 @@ const posts = (await getCollection("posts")).sort(function (first, second) {
         <h3 class="text-lg text-neutral-100">Get in touch</h3>
       </header>
       <p>
-        Email me at <Link
+        Email us at <Link
           href={`mailto:${presentation.mail}`}
           label={presentation.mail}
-        /> or follow me via my social links.
+        />
       </p>
 
       <SocialLinks />
